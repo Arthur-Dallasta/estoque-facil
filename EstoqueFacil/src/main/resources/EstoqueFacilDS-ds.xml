@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema">
+    <datasource jndi-name="java:jboss/datasources/EstoqueFacilDS"
+                pool-name="EstoqueFacilDS"
+                enabled="true"
+                use-java-context="true">
+        <connection-url>jdbc:postgresql://localhost:5432/estoque_facil</connection-url>
+        <driver>postgresql</driver>
+        <security>
+            <user-name>postgres</user-name>
+            <password>postgres</password>
+        </security>
+        <pool>
+            <min-pool-size>5</min-pool-size>
+            <max-pool-size>20</max-pool-size>
+        </pool>
+    </datasource>
+</datasources> 
