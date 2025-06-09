@@ -1,6 +1,6 @@
 # EstoqueFácil
 
-Sistema de controle de estoque para supermercados desenvolvido em Java com JSP e Servlet.
+Sistema de controle de estoque desenvolvido em Java com JSP e Servlet.
 
 ## Funcionalidades
 
